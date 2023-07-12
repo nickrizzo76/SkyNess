@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    width: 70%;
+    max-width: 1000px;
+    margin: 8rem auto;
+    gap: 2rem;
+}
+
+.nav-container {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 0.7em;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar li {
+    list-style-type: none;
+}
+
+.skyness-logo {
+    max-width: 100px;
+}
